@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buynow</title>
+    <link rel="stylesheet" href="second.css">
+</head>
+<body style="background-color: lightblue;">
+    
+    <h1>Fill the Form </h1>
+    <fieldset>
+        <legend> Personal Details</legend>
+    <table align="center">
+    <div> 
+       
+    <form  id="Buynow" >
+        <tr height="50"> 
+            <td>
+        <label for="name"> Name : </label> </td>
+        <td>
+        <input type="text" name="name" id="name" required>  </td>
+        </tr> 
+        <tr height="50">
+            <td><label for="email"> Email Address : </label></td>
+            <td><input type="email" name="email" id="email" required></td>
+        </tr>
+        <tr height="50">
+            <td><label for="address"> Address: </label></td>
+            <td><input type="textarea" name="address" id="address"></td>
+        </tr>
+        <tr height="50">
+            <td><label for="spec"> Select Your Specification</td>
+            <td> <select name="spec" id="spec">
+                <option value="Specification"> 128GB</option>
+                <option value="Specification"> 256GB</option>
+                <option value="Specification"> 512GB</option>
+                <option value="Specification"> 1TB</option>
+            </select></td>
+        </tr>
+        <tr height="50">
+            <td><label for="pay">Choose Your Payment Method : </label></td>
+            <td> <input type="radio" name="pay" id="pay">Debit Card
+                <input type="radio" name="pay" id="pay"> Credit Card
+                <input type="radio" name="pay" id="pay">Google Pay
+            </td>
+        </tr>
+        <tr height="50">
+            <td><input type="submit" value="Submit" href="success.html" >
+            <td><input type="reset" value="Cancel"></td>
+            
+        </tr>
+       
+        
+    </form>
+
+    </div>
+    
+</table>
+</fieldset>
+</body>
+</html>
